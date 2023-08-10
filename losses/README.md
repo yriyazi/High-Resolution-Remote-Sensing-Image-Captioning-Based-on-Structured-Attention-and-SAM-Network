@@ -4,7 +4,7 @@ The **loss** folder in this repository contains a custom loss module named `loss
 
 ## Module Overview
 
-The `loss.py` module contains the following components:
+The `loss_function.py` module contains the following components:
 
 ### `custum_loss` Class
 
