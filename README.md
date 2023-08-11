@@ -8,6 +8,12 @@ However, traditional attention-based approaches typically generate captions usin
 
 To address this challenge, we introduce a novel fine-grained, structured attention-based method designed to leverage the inherent structural characteristics of semantic content in high-resolution remote sensing images. Our approach not only generates improved descriptions but also produces pixel-wise segmentation masks for semantic content. Notably, this segmentation can be simultaneously trained with the captioning task within a unified framework, eliminating the need for pixel-wise annotations.
 
+<p align="center" width="100%">
+    <img width="33%" src="Pictures/Segmented_Beam/35.png"> 
+</p>
+
+
+
 **Key Features:**
 
 - Fine-grained, structured attention-based captioning method.
