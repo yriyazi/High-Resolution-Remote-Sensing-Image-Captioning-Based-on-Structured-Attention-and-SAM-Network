@@ -1,6 +1,9 @@
 # Automatic Language Description Generation for Remote Sensing Images
 
 **Project Description:**
+<p float="center">
+  <img src="Pictures/Structure/Pasted image.png" width="400" />
+</p>
 
 Automatically generating language descriptions for remote sensing images has emerged as a significant research area within the field of remote sensing. This project focuses on attention-based captioning methods, which are a prominent class of deep learning-based techniques for generating captions. These methods have the advantage of generating descriptive text while emphasizing the corresponding object locations within the image.
 
@@ -8,17 +11,14 @@ However, traditional attention-based approaches typically generate captions usin
 
 To address this challenge, we introduce a novel fine-grained, structured attention-based method designed to leverage the inherent structural characteristics of semantic content in high-resolution remote sensing images. Our approach not only generates improved descriptions but also produces pixel-wise segmentation masks for semantic content. Notably, this segmentation can be simultaneously trained with the captioning task within a unified framework, eliminating the need for pixel-wise annotations.
 
-<p align="center" width="100%">
-    <img src="Pictures/Segmented_Beam/35.png" alt="Image 1" style="width: 50%; height: auto;">
-    <img src="Pictures/Segmented_Beam/102.png" alt="Image 2" style="width: 50%; height: auto;">
-  </div>
-</p>
-
 <p float="center">
   <img src="Pictures/Segmented_Beam/35.png" width="400" />
   <img src="Pictures/Segmented_Beam/102.png" width="400" /> 
 </p>
-
+<p float="center">
+  <img src="Pictures/Segmented_Beam/145.png" width="400" />
+  <img src="Pictures/Segmented_Beam/161.png" width="400" /> 
+</p>
 
 **Key Features:**
 
