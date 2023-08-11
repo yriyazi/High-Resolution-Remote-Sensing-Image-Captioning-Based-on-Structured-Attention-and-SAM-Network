@@ -1,8 +1,8 @@
 # Automatic Language Description Generation for Remote Sensing Images
 
 **Project Description:**
-<p float="center">
-  <img src="Pictures/Structure/Pasted image.png" width="400" />
+<p align="center" width="100%">
+    <img width="90%" src="Pictures/Structure/Pasted image.png"> 
 </p>
 
 Automatically generating language descriptions for remote sensing images has emerged as a significant research area within the field of remote sensing. This project focuses on attention-based captioning methods, which are a prominent class of deep learning-based techniques for generating captions. These methods have the advantage of generating descriptive text while emphasizing the corresponding object locations within the image.
