@@ -10,10 +10,14 @@ To address this challenge, we introduce a novel fine-grained, structured attenti
 
 <p align="center" width="100%">
     <img src="Pictures/Segmented_Beam/35.png" alt="Image 1" style="width: 50%; height: auto;">
-    <img src="Pictures/Segmented_Beam/35.png" alt="Image 2" style="width: 50%; height: auto;">
+    <img src="Pictures/Segmented_Beam/102.png" alt="Image 2" style="width: 50%; height: auto;">
   </div>
 </p>
 
+<p float="center">
+  <img src="Pictures/Segmented_Beam/35.png" width="400" />
+  <img src="Pictures/Segmented_Beam/102.png" width="400" /> 
+</p>
 
 
 **Key Features:**
