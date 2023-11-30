@@ -5,7 +5,7 @@
     <img width="90%" src="Pictures/Structure/Pasted image.png"> 
 </p>
 
-Automatically generating language descriptions for remote sensing images has emerged as a significant research area within the field of remote sensing. This project focuses on attention-based captioning methods, which are a prominent class of deep learning-based techniques for generating captions. These methods have the advantage of generating descriptive text while emphasizing the corresponding object locations within the image.
+Automatically generating language descriptions for remote sensing images has emerged as a significant research area within remote sensing. This project focuses on attention-based captioning methods, which are a prominent class of deep learning-based techniques for generating captions. These methods have the advantage of generating descriptive text while emphasizing the corresponding object locations within the image.
 
 However, traditional attention-based approaches typically generate captions using coarse-grained and unstructured attention units. This limitation hinders the exploitation of structured spatial relationships within semantic content present in remote sensing images. These images possess unique structural characteristics that differentiate them from natural images, thereby posing greater challenges for remote sensing image captioning. Unfortunately, many existing remote sensing captioning methods draw inspiration from the computer vision community without considering domain-specific knowledge.
 
@@ -22,7 +22,7 @@ To address this challenge, we introduce a novel fine-grained, structured attenti
 
 **Key Features:**
 
-- Fine-grained, structured attention-based captioning method.
+- Fine-grained, structured, attention-based captioning method.
 - Utilization of spatial relationships within semantic content.
 - Generation of pixel-wise segmentation masks for semantic content.
 - Unified training framework for captioning and segmentation.
@@ -57,11 +57,11 @@ To begin working with this project, follow these steps:
 
 **Evaluation:**
 
-The proposed method has been extensively evaluated on three remote sensing image captioning benchmark datasets. The evaluation includes detailed ablation studies and parameter analyses. The results demonstrate that our approach outperforms state-of-the-art methods in terms of captioning accuracy. Furthermore, our method's ability to generate high-resolution and meaningful segmentation masks adds significant value to the remote sensing image analysis pipeline.
+The proposed method has been extensively evaluated on three remote sensing image captioning benchmark datasets. The evaluation includes detailed ablation studies and parameter analyses. The results demonstrate that our approach outperforms state-of-the-art methods regarding captioning accuracy. Furthermore, our method's ability to generate high-resolution and meaningful segmentation masks adds significant value to the remote sensing image analysis pipeline.
 
 **Contributing:**
 
-Contributions to this project are welcome! If you're interested in improving the automatic language description generation for remote sensing images, please feel free to submit pull requests or reach out to the project maintainers.
+Contributions to this project are welcome! If you're interested in improving the automatic language description generation for remote-sensing images, please submit pull requests or contact the project maintainers.
 
 **License:**
 
@@ -73,4 +73,4 @@ We acknowledge the support of the open-source community and the valuable insight
 
 **Contact:**
 
-For questions or inquiries, please contact [project_email@example.com](mailto:project_email@example.com).
+For questions or inquiries, please contact [iyasiniyasin98@gmail.com](mailto:iyasiniyasin98@gmail.com).
