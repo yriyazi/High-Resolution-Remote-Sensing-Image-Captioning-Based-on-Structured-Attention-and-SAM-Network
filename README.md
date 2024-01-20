@@ -1,6 +1,6 @@
 # Automatic Language Description Generation for Remote Sensing Images
 
-**Description:**
+**Project Description:**
 <p align="center" width="100%">
     <img width="90%" src="Pictures/Structure/Pasted image.png"> 
 </p>
