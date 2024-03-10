@@ -72,7 +72,7 @@ This project is distributed under the [MIT License](LICENSE).
 If you find this work helpful or build upon it in your research, please consider citing the following paper:
 
 ```
-[Yassin Riyazi, S. Mostaf Sajadi, Abas Zohrevand, and Reshad Hosseini*. 2024. "High Resolution Remote Sensing Image Captioning Based on Structured Attention Public." ICEE, 2024, Page Numbers. DOI]
+[Yassin Riyazi, S. Mostaf Sajadi, Abas Zohrevand, and Reshad Hosseini*. 2024. "High-Resolution RemoteSensing Image Captioning Based on Structured Attention and SAM Network" ICEE, 2024, Page Numbers. DOI]
 ```
 
 **Acknowledgments:**
