@@ -1,13 +1,10 @@
 # Automatic Language Description Generation for Remote Sensing Images
 
 **Project Description:**
-<p align="center" width="100%">
-    <img width="90%" src="Pictures/Structure/Pasted image.png"> 
-</p>
 
 Automatically generating language descriptions for remote sensing images has emerged as a significant research area within remote sensing. This project focuses on attention-based captioning methods, a prominent class of deep learning-based techniques for generating captions. These methods have the advantage of generating descriptive text while emphasizing the corresponding object locations within the image.
 
-However, traditional attention-based approaches typically generate captions using coarse-grained and unstructured attention units. This limitation hinders the exploitation of structured spatial relationships within semantic content in remote sensing images. These images possess unique structural characteristics that differentiate them from natural images, posing greater challenges for remote sensing image captioning. Unfortunately, many existing remote sensing captioning methods draw inspiration from the computer vision community without considering domain-specific knowledge.
+However, traditional attention-based approaches typically generate captions using coarse-grained and unstructured attention units. This limitation hinders the exploitation of structured spatial relationships within semantic content in remote-sensing images. These images possess unique structural characteristics that differentiate them from natural images, posing greater challenges for remote sensing image captioning. Unfortunately, many existing remote sensing captioning methods draw inspiration from the computer vision community without considering domain-specific knowledge.
 
 To address this challenge, we introduce a novel fine-grained, structured, attention-based method designed to leverage the inherent structural characteristics of semantic content in high-resolution remote sensing images. Our approach generates improved descriptions and produces pixel-wise segmentation masks for semantic content. Notably, this segmentation can be simultaneously trained with the captioning task within a unified framework, eliminating the need for pixel-wise annotations.
 
