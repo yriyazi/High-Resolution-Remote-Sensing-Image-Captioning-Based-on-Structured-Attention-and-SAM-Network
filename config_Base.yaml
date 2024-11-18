@@ -1,0 +1,63 @@
+# Model hyperparameters
+inference_mode          : False
+learning_rate           : 0.0004
+num_epochs              : 10
+seed                    : 42
+ckpt_save_freq          : 20
+
+batch :
+  batch_train_size      : 32
+  Validation_Set        : True
+  batch_validation_size : 32
+  batch_test_size       : 32
+
+# Dataset parameters
+dataset:
+  sorted_mask   : False
+  DatasetInUse  : 'UCM'
+  dataframe     : {'UCM':'.tif' , 'RSICD':'.jpg'}
+  Rand_out      : False
+  Regions_adress: 'mask_SelectiveSearch' # masks_SAM
+
+loss:
+  DSR     : False
+  AVR     : True
+  Beta    : 1
+  Gamma   : 1  
+
+Transformation:
+  Image_scale : 512
+
+# Model architecture
+model:
+  name                    : 'Pic2seq_Base'
+  # structure pooling
+  resize_ROI              : 16 # Image_scale//32
+  N_ROI                   : 8
+  # resnet
+  fine_tune_resnet        : False
+  resnet_Cut              : -2
+  resnet_output           : 2048
+  decoder_embbeding_size  : 512
+  # decoder
+  decoder_hiddenState     : 512
+  word_score              : 512
+  decoder_num_layer       : 1
+  # attention later
+  intermediate_weight     : 128
+  #train parameters
+  teacher_forcing         : 0.25
+
+# Optimization parameters
+optimizer :
+  name            : ADAM
+  weight_decay    : 0.0001
+  betas           : [0.90,0.99]
+
+# Scheduler parameters
+scheduler:  
+  scheduler_activate : False
+  name        : LinearLR
+  start_factor: 1
+  end_factor  : 0.5
+  total_iters : 20
